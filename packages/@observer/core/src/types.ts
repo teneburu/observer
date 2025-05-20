@@ -25,6 +25,7 @@ export interface ObserverBaseEvent {
   readonly sessionId?: string; // Optional session identifier
   readonly visitorId?: string; // Optional visitor identifier (long-term)
   readonly userId?: string; // Optional user identifier
+  readonly eventSchemaVersion?: string; // Optional: Version of the event schema itself (e.g., "1.0", "1.1")
   // readonly eventVersion: string; // Future: for versioning event schemas
 }
 

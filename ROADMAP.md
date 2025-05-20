@@ -45,7 +45,7 @@ The "Observer" module will provide client-side and server-side components to mak
     *   [x] Setup ESLint, Prettier, and other linting/formatting tools.
     *   [x] Setup a testing framework (e.g., Vitest, Jest).
 2.  **`@observer/core` Package:**
-    *   [ ] Define common TypeScript types (e.g., for events, configuration options).
+    *   [x] Define common TypeScript types (e.g., for events, configuration options).
     *   [ ] Develop a centralized configuration mechanism:
         *   How users will provide URLs (Loki, Observer backend endpoint, MinIO), API keys, service names, environment (dev/prod), etc.
         *   Support for environment variables and/or programmatic configuration.

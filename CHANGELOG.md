@@ -32,4 +32,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Setup VitePress for documentation:
   - Added `vitepress` as a root dev dependency.
   - Initialized VitePress in the `docs` directory with default theme and TypeScript support.
-  - Added `docs:dev` and other related npm scripts to the root `package.json`. 
+  - Added `docs:dev` and other related npm scripts to the root `package.json`.
+- Defined initial common TypeScript types for `@observer/core` in `packages/@observer/core/src/types.ts`:
+  - Includes types for core configuration (`ObserverConfig`, `ObserverServiceConfig`, `ObserverEnvironment`).
+  - Includes base event structure (`ObserverBaseEvent`) and specific event types (`ObserverPageViewEvent`, `ObserverCustomEvent`, `ObserverErrorEvent`).
+  - Added `eventSchemaVersion` to `ObserverBaseEvent` for event payload versioning.
+  - Includes utility types for event payloads and capture functions.
+- Standardized package directory naming convention to `packages/@observer/core`, `packages/@observer/client`, and `packages/@observer/server`.
+- Corrected `tsconfig.json` paths (for `extends` and `references`) in all packages to align with the standardized directory structure and ensure correct project linking.
+- Replaced `Record<string, any>` with `Record<string, unknown>` in `@observer/core/src/types.ts` for improved type safety. 
