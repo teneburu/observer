@@ -2,8 +2,8 @@
   "extends": "./tsconfig.base.json",
   "files": [],
   "references": [
-    { "path": "packages/core" },
-    { "path": "packages/client" },
-    { "path": "packages/server" }
+    { "path": "packages/@observer/core" },
+    { "path": "packages/@observer/client" },
+    { "path": "packages/@observer/server" }
   ]
 } 

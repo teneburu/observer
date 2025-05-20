@@ -1,9 +1,7 @@
 {
-  "extends": "../../tsconfig.base.json",
+  "extends": "../../../tsconfig.base.json",
   "compilerOptions": {
-    "outDir": "dist",
-    "jsx": "preserve",
-    "jsxImportSource": "solid-js"
+    "outDir": "dist"
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"],
