@@ -101,6 +101,10 @@ public
 # VuePress build output
 .vuepress/dist
 
+# VitePress
+docs/.vitepress/dist
+docs/.vitepress/cache
+
 # Serverless Zips
 .serverless/
 

@@ -58,7 +58,7 @@ The "Observer" module will provide client-side and server-side components to mak
     *   [ ] Initial setup for a Fastify plugin / tRPC middleware package.
     *   [ ] Build process.
 5.  **Initial Documentation Structure:**
-    *   [ ] Setup a documentation system (e.g., VitePress, Docusaurus, or just Markdown files).
+    *   [x] Setup a documentation system (e.g., VitePress, Docusaurus, or just Markdown files).
     *   [ ] Outline main sections: Introduction, Setup, Configuration, API Reference for each module, Recipes/Examples.
 
 ---
