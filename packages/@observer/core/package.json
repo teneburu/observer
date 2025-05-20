@@ -7,8 +7,13 @@
     "dev": "echo \"dev script for @observer/core\"",
     "test": "vitest run"
   },
-  "devDependencies": {
-    "typescript": "latest",
+  "dependencies": {
+    "uuid": "latest",
     "zod": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.20",
+    "@types/uuid": "latest",
+    "typescript": "latest"
   }
-} 
+}
