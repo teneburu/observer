@@ -40,9 +40,9 @@ The "Observer" module will provide client-side and server-side components to mak
 ## Phase 1: "Observer" Project Setup & Core Module Structure
 
 1.  **Project Initialization:**
-    *   [ ] Choose a monorepo manager (e.g., pnpm workspaces, Turborepo, Lerna) or a single package structure. (Monorepo recommended for modularity).
-    *   [ ] Initialize the project with TypeScript.
-    *   [ ] Setup ESLint, Prettier, and other linting/formatting tools.
+    *   [x] Choose a monorepo manager (e.g., pnpm workspaces, Turborepo, Lerna) or a single package structure. (Monorepo recommended for modularity).
+    *   [x] Initialize the project with TypeScript.
+    *   [x] Setup ESLint, Prettier, and other linting/formatting tools.
     *   [ ] Setup a testing framework (e.g., Vitest, Jest).
 2.  **`@observer/core` Package (if monorepo):**
     *   [ ] Define common TypeScript types (e.g., for events, configuration options).
