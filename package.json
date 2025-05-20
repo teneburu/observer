@@ -1,0 +1,17 @@
+{
+  "name": "observer-monorepo",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter ./packages --parallel run dev"
+  },
+  "devDependencies": {
+    "pnpm": "latest",
+    "eslint": "latest",
+    "@typescript-eslint/parser": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-prettier": "latest",
+    "prettier": "latest",
+    "typescript": "latest"
+  }
+} 

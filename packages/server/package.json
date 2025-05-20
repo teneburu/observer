@@ -1,0 +1,19 @@
+{
+  "name": "@observer/server",
+  "version": "0.0.0",
+  "private": true,
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "echo \"dev script for @observer/server\""
+  },
+  "dependencies": {
+    "@observer/core": "workspace:*",
+    "fastify": "latest",
+    "@trpc/server": "latest",
+    "winston": "latest",
+    "prom-client": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest"
+  }
+} 

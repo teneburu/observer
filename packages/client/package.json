@@ -1,0 +1,19 @@
+{
+  "name": "@observer/client",
+  "version": "0.0.0",
+  "private": true,
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "echo \"dev script for @observer/client\""
+  },
+  "dependencies": {
+    "@observer/core": "workspace:*",
+    "solid-js": "latest",
+    "rrweb": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "vite": "latest",
+    "vite-plugin-solid": "latest"
+  }
+} 

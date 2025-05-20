@@ -1,0 +1,13 @@
+{
+  "name": "@observer/core",
+  "version": "0.0.0",
+  "private": true,
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "echo \"dev script for @observer/core\""
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "zod": "latest"
+  }
+} 
