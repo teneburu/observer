@@ -4,7 +4,8 @@
   "private": true,
   "main": "src/index.ts",
   "scripts": {
-    "dev": "echo \"dev script for @observer/core\""
+    "dev": "echo \"dev script for @observer/core\"",
+    "test": "vitest run"
   },
   "devDependencies": {
     "typescript": "latest",

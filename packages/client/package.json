@@ -4,7 +4,8 @@
   "private": true,
   "main": "src/index.ts",
   "scripts": {
-    "dev": "echo \"dev script for @observer/client\""
+    "dev": "echo \"dev script for @observer/client\"",
+    "test": "vitest run"
   },
   "dependencies": {
     "@observer/core": "workspace:*",
