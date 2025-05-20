@@ -15,7 +15,7 @@ The "Observer" module will provide client-side and server-side components to mak
 
 *   **Opinionated:** Provide clear, well-defined ways to achieve observability for the target stack.
 *   **Developer Experience (DX):** Easy to install, configure, and use. Provide hooks, components, and plugins where appropriate.
-*   **Modular (Potentially):** Consider a monorepo structure (e.g., using pnpm workspaces) for sub-packages like `@observer/core`, `@observer/client` (for SolidJS), and `@observer/server` (for Fastify/tRPC).
+*   **Modular:** The project uses a monorepo structure (pnpm workspaces) for sub-packages: `@observer/core`, `@observer/client` (for SolidJS), and `@observer/server` (for Fastify/tRPC).
 *   **Extensible (where it makes sense):** While opinionated, allow for necessary configurations and customizations.
 *   **Comprehensive Documentation:** Essential for adoption and maintenance.
 
@@ -40,11 +40,11 @@ The "Observer" module will provide client-side and server-side components to mak
 ## Phase 1: "Observer" Project Setup & Core Module Structure
 
 1.  **Project Initialization:**
-    *   [x] Choose a monorepo manager (e.g., pnpm workspaces, Turborepo, Lerna) or a single package structure. (Monorepo recommended for modularity).
+    *   [x] Chose a monorepo structure using pnpm workspaces.
     *   [x] Initialize the project with TypeScript.
     *   [x] Setup ESLint, Prettier, and other linting/formatting tools.
     *   [x] Setup a testing framework (e.g., Vitest, Jest).
-2.  **`@observer/core` Package (if monorepo):**
+2.  **`@observer/core` Package:**
     *   [ ] Define common TypeScript types (e.g., for events, configuration options).
     *   [ ] Develop a centralized configuration mechanism:
         *   How users will provide URLs (Loki, Observer backend endpoint, MinIO), API keys, service names, environment (dev/prod), etc.
