@@ -23,4 +23,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Updated package-specific `tsconfig.json` files to extend the base configuration and add project references.
   - Created a root `tsconfig.json` to reference all workspace packages.
 - Added a comprehensive `.gitignore` file to the project root.
-- Renamed `roadmap200525.md` to `ROADMAP.md`. 
+- Renamed `roadmap200525.md` to `ROADMAP.md`.
+- Setup Vitest for testing:
+  - Installed `vitest` and `@vitest/coverage-v8` as root dev dependencies.
+  - Created `vitest.config.ts` in the root for monorepo configuration.
+  - Added `"test": "pnpm -r test"` script to the root `package.json`.
+  - Added `"test": "vitest run"` script to `packages/core/package.json`, `packages/client/package.json`, and `packages/server/package.json`. 

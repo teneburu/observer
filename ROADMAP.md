@@ -43,7 +43,7 @@ The "Observer" module will provide client-side and server-side components to mak
     *   [x] Choose a monorepo manager (e.g., pnpm workspaces, Turborepo, Lerna) or a single package structure. (Monorepo recommended for modularity).
     *   [x] Initialize the project with TypeScript.
     *   [x] Setup ESLint, Prettier, and other linting/formatting tools.
-    *   [ ] Setup a testing framework (e.g., Vitest, Jest).
+    *   [x] Setup a testing framework (e.g., Vitest, Jest).
 2.  **`@observer/core` Package (if monorepo):**
     *   [ ] Define common TypeScript types (e.g., for events, configuration options).
     *   [ ] Develop a centralized configuration mechanism:
